@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FCC Product Landing Page</title>
+
+</head>
+
+<header id="header">
+
+  <h1 id="header-logo">Pulse Computers</h1>
+
+  <img id="header-img" src="https://pics.craiyon.com/2024-10-20/gK9Sdt_-SPG7xKAQLJv3RA.webp" width="100" height="100">
+
+  <nav id="nav-bar">
+    <a class="nav-link" href="#header">Home</a>
+    <a class="nav-link" href="#header-description">Building</a>
+    <a class="nav-link" href="#footer">Contact Us</a>
+  </nav>
+
+  <p id="header-description">Feel the pulse: expertly crafted PCs for your gaming needs!</p>
+
+</header>
+
+<body id="body">
+
+  <p id="first-paragraph">Are you looking for a gaming PC? There's many ways to get one, covering two here, you can let us know what
+    you're looking for and we can get the parts and build it for you for a small fee or you can source the parts and
+    build it yourself. We carry parts for the self-builders as well.</p>
+
+  <p>Now for the people that are beginners, I think it's a great idea to build your own computer.It's nice knowing the
+    ins and outs of your PC and the parts that make it what it is. It can be a daunting task but with the help of the
+    internet, there's no doubt that you can get it done. We have a video from <a
+      href="https://www.youtube.com/@LinusTechTips">Linus Tech Tips</a> that goes really in depth
+    on PC parts and building PCs. It is a great resource for beginners and pros alike.</p>
+
+  <hr>
+
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/s1fxZ-VWs2U?si=jry_3QcRBN4Yf266"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <hr>
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+    <p>Let us know what kind of builder you are and sign up for our newsletter.</p>
+
+    <input id="email" name="email" type="email" placeholder="email goes here...">
+
+    <hr>
+
+    <p>Beginner</p>
+    <input name="builder-type" type="radio" value="beginner" required/>
+
+    <p>Pro</p>
+    <input name="builder-type" type="radio" value="pro" required/>
+
+    <hr>
+
+    <input id="submit" type="submit" />
+
+  </form>
+
+</body>
+
+<footer id="footer">
+  <p>Don't know where to start? Reach out! We're happy to answer any questions you may have! Seriously, we love talking
+    computers.</p>
+  <button id="contact">Contact Us</button>
+</footer>
+
+</html>
